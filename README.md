@@ -13,6 +13,11 @@ make go
 go run main.go
 ```
 
+## 启动gateway api
+```
+go run gateway/gateway.go
+```
+
 ## 说明：
 grpc的gateway api作用是使用go转发http请求到rpc服务上
 所以，我在网关里写了一个针对grpc服务健康检查
